@@ -1303,11 +1303,11 @@ class RandomForestClassifier(ForestClassifier):
         :ref:`sphx_glr_auto_examples_ensemble_plot_ensemble_oob.py`.
 
     n_jobs : int, default=None
-        The number of jobs to run in parallel. :meth:`fit`, :meth:`predict`,
-        :meth:`decision_path` and :meth:`apply` are all parallelized over the
-        trees. ``None`` means 1 unless in a :obj:`joblib.parallel_backend`
-        context. ``-1`` means using all processors. See :term:`Glossary
-        <n_jobs>` for more details.
+        Number of jobs to run in parallel. :meth:`fit`, :meth:`predict`,
+        :meth:`decision_path` and :meth:`apply` are all parallelized over
+        the trees. ``None`` means 1 unless in a
+        :obj:`joblib.parallel_backend` context. ``-1`` means using all
+        processors. See :term:`Glossary <n_jobs>` for more details.
 
     random_state : int, RandomState instance or None, default=None
         Controls both the randomness of the bootstrapping of the samples used
@@ -1722,11 +1722,11 @@ class RandomForestRegressor(ForestRegressor):
         :ref:`sphx_glr_auto_examples_ensemble_plot_ensemble_oob.py`.
 
     n_jobs : int, default=None
-        The number of jobs to run in parallel. :meth:`fit`, :meth:`predict`,
-        :meth:`decision_path` and :meth:`apply` are all parallelized over the
-        trees. ``None`` means 1 unless in a :obj:`joblib.parallel_backend`
-        context. ``-1`` means using all processors. See :term:`Glossary
-        <n_jobs>` for more details.
+        Number of jobs to run in parallel. :meth:`fit`, :meth:`predict`,
+        :meth:`decision_path` and :meth:`apply` are all parallelized over
+        the trees. ``None`` means 1 unless in a
+        :obj:`joblib.parallel_backend` context. ``-1`` means using all
+        processors. See :term:`Glossary <n_jobs>` for more details.
 
     random_state : int, RandomState instance or None, default=None
         Controls both the randomness of the bootstrapping of the samples used

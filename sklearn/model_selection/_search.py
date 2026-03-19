@@ -1293,7 +1293,8 @@ class GridSearchCV(BaseSearchCV):
         See :ref:`multimetric_grid_search` for an example.
 
     n_jobs : int, default=None
-        Number of jobs to run in parallel.
+        Number of jobs to run in parallel. The search over ``param_grid``
+        is parallelized over all candidates and cross-validation splits.
         ``None`` means 1 unless in a :obj:`joblib.parallel_backend` context.
         ``-1`` means using all processors. See :term:`Glossary <n_jobs>`
         for more details.
